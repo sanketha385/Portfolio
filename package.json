@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
-    "build": "node node_modules/vite/bin/vite.js build",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "keywords": [],
@@ -13,11 +13,13 @@
   "license": "ISC",
   "dependencies": {
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
-  },
-  "devDependencies": {
-    "vite": "^6.3.5"
     "react-dom": "^19.1.1",
     "vite": "^6.3.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
